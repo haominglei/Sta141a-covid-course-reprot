@@ -1,0 +1,37 @@
+---
+title: "project2_report"
+author: "Haoming lei,Kun Zhang, Handong Ma,Jianhe Hu. Team ID:2"
+date: "3/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Overall impression
+ Our Project 2 is talking about new cases between weekdays and weekend in COVID-19 Period. We assume that weekdays have more new cases. And this may cause by lots of factors, such as unwilling to wear masks, jobs that can't done remotely and so on. We use Histogram and Best fit model to build our model and sensitive analysis to prove our assumption. 
+ 
+This report meets the expectation, with clear and logical structure, clearly states the statistical model and examines the plausiblity of key assumptions.
+
+# Major problem
+1.For 5.1 section in the project, peer suggest giving x axis title new name and the legend a new name as well. Adding titles to the graphs/plots would be beneficial for readers. It makes it easier to follow along what is the information about for the dataset. So we will use the lable function to lable the x axis and legend.
+
+2.More description in inferential analysis and sensitivity analysis section is needed, could run a couple more tests to confirm having the right model. We will also do a anova table, using the p value and a 95% confidence interval to test if weekend and weekday has significant for the new cases variable. 
+
+3.In discussion there should be a recap of intro and the background. So we will add more explanation on our disscussion, and bring back the primary question of intrested and summarize. 
+
+4.Missing acknowledgements, references, appendix, and session info sections. In a professional report, it is important to have acknowledgments and references because we have to give people credict if we use their sources. And appendix is also important because some readers may intrested on the code
+
+5.My peer found that there are missing model and what each variable is according to that model and model assumptions/constraints. This would help set up the stage for when you are testing normality and variance. So we will identify which model we are using, and what is the variable means when using it in our model. We will also add the model assumptions to, and to check for if it's right. 
+
+#Minor problem
+
+1.Should pay attention on the typo and grammar on summary, analysis and conclusion.
+
+#Questions
+
+1.What is the value of knowing that there are more cases on the weekend than weekdays?
+2.What are some caveats/confounding factors that could affect your data and analysis? 
+3.Is your weekend data from the WHO covid data that was provided?
+4.Why use log histogram in descriptive analysis.
+5.What other questions you might consider if you have more time on the project?
